@@ -2,8 +2,8 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.compose)
 
-    id("org.jetbrains.compose") version "1.5.10"
 }
 
 kotlin {
